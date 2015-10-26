@@ -4,4 +4,4 @@ def maxDivision(former, latter):
     for i in range(1, end + 1):
         if (former % i == 0 and latter % i == 0):
             ret = i
-    return i
+    return ret
